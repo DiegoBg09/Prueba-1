@@ -1,0 +1,79 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.my-header h2 { 
+    display: inline;
+    margin-left: 50px;
+  }
+.my-header span { 
+    color: gray;  
+    float: right;
+    word-spacing: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+span.number{
+    margin-left: 90px;
+    margin-right: 50px;
+    color: black;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.title-center{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-37%, -50%);
+    color: white;
+    font-size: 35px;
+}
+.text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    color: white;
+}
+img{
+    width: 105%;
+}
+.circles{
+    position: relative;
+    margin-left: 13%;
+    margin-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(6, 174, 252);
+    border-radius: 100%;
+    display: inline-block;
+}
+.icon{    
+    float: left;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 30%;
+    color: white;
+    font-size: 50px;
+}    
+.title-circles span{
+    color: rgb(6, 174, 252);
+    word-spacing: 5px;
+    margin-left: 150px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    float: left;
+    font-size: 20px;
+}
+.content{
+    float: left;
+    color: gray;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 13px;
+}
