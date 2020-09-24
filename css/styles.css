@@ -1,79 +1,138 @@
 body{
     font-family: "Inter", sans-serif;
+    margin: 0;
 }
-.my-header h2 { 
-    display: inline;
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+.title{
+
+}
+.section-rigth{
+    display: flex;
+    align-items: center;
+}
+.options {
+    color: grey;
+}
+.options span{
+    margin: 0 10px;
+}
+.number{
     margin-left: 50px;
-  }
-.my-header span { 
-    color: gray;  
-    float: right;
-    word-spacing: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 5px;
 }
-span.number{
-    margin-left: 90px;
-    margin-right: 50px;
-    color: black;
-}
-.contenedor{
+.container{
     position: relative;
     display: inline-block;
     text-align: center;
+    width: 100%;
 }
 .title-center{
+    display: block;
     position: absolute;
-    top: 25%;
     left: 50%;
-    transform: translate(-37%, -50%);
+    top: 30%;
+    transform: translate(-50% , -50%);
     color: white;
-    font-size: 35px;
-}
-.text-center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-40%, -50%);
-    color: white;
-}
-img{
-    width: 105%;
-}
-.circles{
-    position: relative;
-    margin-left: 13%;
-    margin-right: 30px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    height: 90px;
-    width: 90px;
-    background-color: rgb(6, 174, 252);
-    border-radius: 100%;
-    display: inline-block;
-}
-.icon{    
-    float: left;
-    position: absolute;
-    margin-top: 15%;
-    margin-left: 30%;
-    color: white;
-    font-size: 50px;
-}    
-.title-circles span{
-    color: rgb(6, 174, 252);
-    word-spacing: 5px;
-    margin-left: 150px;
-    margin-right: 60px;
-    margin-bottom: 20px;
-    float: left;
     font-size: 20px;
 }
-.content{
-    float: left;
-    color: gray;
-    margin-left: 65px;
-    margin-top: 20px;
+.text-center{
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    color: white;
     font-size: 13px;
+}
+img{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    margin: 0 140px;
+}
+.card{
+    border: 1px solid red;
+}
+.circle {
+    margin-top: 5%;
+    margin-left: 11.5%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon{
+    float: left;
+    color: white;
+    margin-top: 18%;
+    margin-left: 31.5%;
+    font-size: 50px;
+}
+.title-circle{
+    color: rgb(0, 153, 255);
+    margin-left: 11%;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.title-circle-2{
+    color: rgb(0, 153, 255);
+    margin-left: 11%;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.title-circle-3{
+    color: rgb(0, 153, 255);
+    margin-left: 13%;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.title-circle-4{
+    color: rgb(0, 153, 255);
+    margin-left: 17%;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.content{
+    font-size: 14px;
+}
+@media only screen and (max-width: 500px) {
+    .wrapper{
+        display: block;
+        margin: 0%;
+    }
+    .my-header{
+        justify-content: center;
+    }
+    .section-rigth , .description{
+        display: none;
+    }
+    .circle{
+        margin-top: 7%;
+        margin-left: 35.7%;
+    }
+    .title-circle{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-2{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-3{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .title-circle-4{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .content{
+        margin-left: 19%;
+    }
 }
