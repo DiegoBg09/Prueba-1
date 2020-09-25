@@ -59,10 +59,10 @@ img{
 }
 .card{
     margin: 12px;
+    text-align: center;
 }
 .circle {
     margin-top: 5%;
-    margin-left: 27.5%;
     height: 100px;
     width: 100px;
     background-color: rgb(0, 153, 255);
@@ -78,25 +78,21 @@ img{
 }
 .title-circle{
     color: rgb(0, 153, 255);
-    margin-left: 27%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-2{
     color: rgb(0, 153, 255);
-    margin-left: 26%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-3{
     color: rgb(0, 153, 255);
-    margin-left: 32%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-4{
     color: rgb(0, 153, 255);
-    margin-left: 33%;
     font-size: 20px;
     margin-bottom: 3%;
 }
@@ -114,28 +110,8 @@ img{
     .section-rigth , .text-center{
         display: none;
     }
-    .circle{
-        margin-top: 7%;
-        margin-left: 35.7%;
-    }
-    .title-circle{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-2{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-3{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .title-circle-4{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .content{
-        margin-left: 19%;
+    .card{
+        text-align: center;
     }
 }
 
@@ -150,28 +126,8 @@ img{
     .section-rigth, .text-center{
         display: none;
     }
-    .circle{
-        margin-top: 7%;
-        margin-left: 35.7%;
-    }
-    .title-circle{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-2{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-3{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .title-circle-4{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .content{
-        margin-left: 25%;
+    .card{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -187,29 +143,7 @@ img{
     }
     .card{
         margin: 0%;
-    }
-    .circle{
-        margin-top: 7%;
-        margin-left: 35.7%;
-    }
-    .title-circle{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-2{
-        margin-left: 35%;
-        margin-bottom: 7%;
-    }
-    .title-circle-3{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .title-circle-4{
-        margin-left: 37%;
-        margin-bottom: 7%;
-    }
-    .content{
-        margin-left: 29%;
+        text-align: center;
     }
 }
 
