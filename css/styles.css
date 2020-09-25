@@ -42,7 +42,7 @@ body{
     display: block;
     position: absolute;
     left: 35%;
-    top: 50%;
+    top: 40%;
     color: white;
     font-size: 13px;
 }
@@ -53,14 +53,16 @@ img{
 }
 .wrapper{
     display: flex;
-    margin: 0 140px;
+    margin: 0 90px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .card{
-    border: 1px solid red;
+    margin: 12px;
 }
 .circle {
     margin-top: 5%;
-    margin-left: 11.5%;
+    margin-left: 27.5%;
     height: 100px;
     width: 100px;
     background-color: rgb(0, 153, 255);
@@ -76,25 +78,25 @@ img{
 }
 .title-circle{
     color: rgb(0, 153, 255);
-    margin-left: 11%;
+    margin-left: 27%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-2{
     color: rgb(0, 153, 255);
-    margin-left: 11%;
+    margin-left: 26%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-3{
     color: rgb(0, 153, 255);
-    margin-left: 13%;
+    margin-left: 32%;
     font-size: 20px;
     margin-bottom: 3%;
 }
 .title-circle-4{
     color: rgb(0, 153, 255);
-    margin-left: 17%;
+    margin-left: 33%;
     font-size: 20px;
     margin-bottom: 3%;
 }
@@ -104,12 +106,12 @@ img{
 @media only screen and (max-width: 500px) {
     .wrapper{
         display: block;
-        margin: 0%;
+        margin: 0;
     }
     .my-header{
         justify-content: center;
     }
-    .section-rigth , .description{
+    .section-rigth , .text-center{
         display: none;
     }
     .circle{
@@ -136,3 +138,78 @@ img{
         margin-left: 19%;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .wrapper{
+        display: block;
+        margin: 0%;
+    }
+    .my-header{
+        justify-content: center;
+    }
+    .section-rigth, .text-center{
+        display: none;
+    }
+    .circle{
+        margin-top: 7%;
+        margin-left: 35.7%;
+    }
+    .title-circle{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-2{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-3{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .title-circle-4{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .content{
+        margin-left: 25%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .wrapper{
+        display: block;
+        margin: 0%;
+    }
+    .my-header{
+        justify-content: center;
+    }
+    .section-rigth, .text-center{
+        display: none;
+    }
+    .card{
+        margin: 0%;
+    }
+    .circle{
+        margin-top: 7%;
+        margin-left: 35.7%;
+    }
+    .title-circle{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-2{
+        margin-left: 35%;
+        margin-bottom: 7%;
+    }
+    .title-circle-3{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .title-circle-4{
+        margin-left: 37%;
+        margin-bottom: 7%;
+    }
+    .content{
+        margin-left: 29%;
+    }
+}
+
